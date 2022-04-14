@@ -15,7 +15,6 @@ const disableAutocomplete = {
 
           elements.forEach(element => {
             element.setAttribute("readonly", "readonly");
-            element.style.backgroundColor = "inherit";
 
             setTimeout(() => {
               element.removeAttribute("readonly");
